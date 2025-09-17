@@ -8,7 +8,7 @@ https://www.dropbox.com/scl/fi/uenmagi0b5nlg0bzcffbj/Pavia_centre.mat?rlkey=02lw
 Original paper/address:  
 Palsson, F., Sveinsson, J.R., Ulfarsson, M.O.: Multispectral and hyperspectral
  image fusion using a 3-d-convolutional neural network 14(5), 639–643 (2017)
- https://doi.org/10.1109/LGRS.2017.2668299
+ https://doi.org/10.1109/LGRS.2017.2668299  
 Botswana：  
 https://www.dropbox.com/scl/fi/9goeot9f777jft4ok94o1/Botswana.mat?rlkey=so63mhdovnkyo83lntld7e978&e=1&dl=0  
 Original paper/address:  
