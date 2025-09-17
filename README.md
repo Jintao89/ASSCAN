@@ -1,6 +1,7 @@
 # ASSCAN
 ASSCAN: Adaptive Spatial-Spectral Collaborative Attention Network for Hyperspectral Pansharpening
-
+# AboutModelCode
+In the process of collating documents...
 # DataSet  
 Pavia Center：  
 https://www.dropbox.com/scl/fi/uenmagi0b5nlg0bzcffbj/Pavia_centre.mat?rlkey=02lwpqw60qu5sxih0q86j8eqg&e=1&dl=0  
