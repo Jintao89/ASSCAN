@@ -40,7 +40,7 @@ def compute_psnr(x_true, x_pred):
     return m_psnr
 
 
-def compute_ergas(x_true, x_pred, scale_factor):
+def compute_ergas(x_true, x_pred, scale_factor=1):
     assert x_true.ndim == 3 and x_pred.ndim == 3 and x_true.shape == x_pred.shape
 
     img_w, img_h, img_c = x_true.shape
@@ -52,6 +52,11 @@ def compute_ergas(x_true, x_pred, scale_factor):
 
     ERGAS = (100 / scale_factor) * np.sqrt((1 / img_c) * ERGAS)
     return ERGAS
+
+from sewar.full_ref import uqi
+def compute_Uqi(x_true, x_pred):
+    Uqi = uqi(x_true, x_pred)
+    return Uqi
 
 # (H, W, C)
 def compute_cc(x_true, x_pred):
@@ -102,4 +107,5 @@ def MetricsCal(x_true, x_pred, scale):  # c,w,h
     Uqi = uqi(x_true, x_pred)
 
     return sam, psnr, ergas, cc, rmse, Ssim, Uqi
+
 
